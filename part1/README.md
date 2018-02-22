@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 
-# ${1:CSC443 A1 Part1}
+## ${1:CSC443 A1 Part1}
 
 ## Description
 
