@@ -1,7 +1,7 @@
 <snippet>
-	<content><![CDATA[
+	<content>
 
-## ${1:CSC443 A1 Part1}
+# 1:CSC443 A1 Part1
 
 ## Description
 
@@ -25,6 +25,5 @@ To run automated scripts testing the performance of these functions type the fol
 
 `python3 read_expr.py`
 
-]]></content>
-	<tabTrigger>readme</tabTrigger>
+	</content>
 </snippet>
