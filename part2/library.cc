@@ -108,8 +108,16 @@ bool is_slot_occupied(Page *page, int slot) {
 }
 
 // ++++++++++++++++++++++++++ REQUIRED FUNCTIONS ++++++++++++++++++++++++++ //
+// int fixed_len_sizeof(Record *record) {
+// 	return RECORD_SIZE;
+// }
+
 int fixed_len_sizeof(Record *record) {
-	return RECORD_SIZE;
+	int sz = 0;
+	for (int i = 0; i < record->size(); i++) {
+		sz += (int)strlen(record->at(i));
+	}
+	return sz;
 }
 
 void fixed_len_write(Record *record, void *buf) {
