@@ -1,5 +1,5 @@
 <snippet>
-	<content>
+
 
 # 1:CSC443 A1 Part1
 
@@ -25,5 +25,5 @@ To run automated scripts testing the performance of these functions type the fol
 
 `python3 read_expr.py`
 
-	</content>
+
 </snippet>
